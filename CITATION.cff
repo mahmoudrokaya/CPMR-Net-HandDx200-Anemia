@@ -1,0 +1,70 @@
+cff-version: 1.2.0
+message: >
+  If you use this software in your research, please cite both the
+  associated manuscript (when available) and this software repository.
+
+title: "CPMR-Net for Participant-Level Multimodal Anemia Diagnosis from Hand Images"
+
+type: software
+
+authors:
+  - family-names: Rokaya
+    given-names: Mahmoud
+    affiliation: Taif University
+    orcid: ""
+
+  - family-names: Mahmoud
+    given-names: Basel
+    affiliation: Taif University
+    orcid: ""
+
+repository-code: "https://github.com/mahmoudrokaya/CPMR-Net-HandDx200-Anemia"
+
+url: "https://github.com/mahmoudrokaya/CPMR-Net-HandDx200-Anemia"
+
+license: MIT
+
+keywords:
+  - anemia
+  - hand imaging
+  - multimodal imaging
+  - RGB
+  - thermal imaging
+  - physiological representation
+  - deep learning
+  - participant-level diagnosis
+  - CPMR-Net
+  - medical artificial intelligence
+  - computer vision
+  - biomedical image analysis
+
+abstract: >
+  CPMR-Net (Cooperative Physiological Multi-Representation Network) is a
+  participant-level multimodal deep-learning framework for anemia diagnosis
+  from RGB and thermal hand images. The repository contains the complete
+  implementation of the physiological representation generation pipeline,
+  handcrafted physiological feature extraction, statistical validation,
+  nonredundant feature selection, CPMR-Net architecture, progressive
+  contrastive fine-tuning, evaluation protocols, and reproducibility
+  resources used in the accompanying research study.
+
+version: "1.0.0"
+
+date-released: 2026-07-08
+
+preferred-citation:
+  type: article
+  title: "CPMR-Net for Participant-Level Multimodal Anemia Diagnosis from Hand Images"
+  authors:
+    - family-names: Rokaya
+      given-names: Mahmoud
+
+    - family-names: Mahmoud
+      given-names: Basel
+
+  status: "Manuscript under preparation"
+
+references:
+  - type: software
+    title: "CPMR-Net GitHub Repository"
+    repository-code: "https://github.com/mahmoudrokaya/CPMR-Net-HandDx200-Anemia"
