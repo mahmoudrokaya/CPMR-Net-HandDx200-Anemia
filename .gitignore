@@ -1,0 +1,34 @@
+# Excluded generated/heavy files
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.tif
+*.tiff
+*.webp
+*.zip
+*.rar
+*.7z
+*.pt
+*.pth
+*.ckpt
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local/generated folders
+Data/
+Outputs/
+Raw/
+dataset/
+datasets/
