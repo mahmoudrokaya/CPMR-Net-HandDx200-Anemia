@@ -1,11 +1,52 @@
-numpy
-pandas
-scipy
-scikit-learn
-matplotlib
-opencv-python
-Pillow
-torch
-torchvision
-tqdm
-openpyxl
+# ============================================================
+# CPMR-Net: Cooperative Physiological Multi-Representation Network
+# Participant-Level Multimodal Anemia Diagnosis from Hand Images
+#
+# Python version:
+#     Python 3.10+
+#
+# Install:
+#     pip install -r requirements.txt
+# ============================================================
+
+# ---------- Numerical Computing ----------
+numpy>=1.26.0,<3.0
+scipy>=1.13.0,<2.0
+pandas>=2.2.0,<3.0
+
+# ---------- Machine Learning ----------
+scikit-learn>=1.5.0,<2.0
+joblib>=1.4.0,<2.0
+
+# ---------- Deep Learning ----------
+torch>=2.7.0,<3.0
+torchvision>=0.22.0,<1.0
+
+# ---------- Image Processing ----------
+opencv-python>=4.10.0,<5.0
+Pillow>=11.0.0,<12.0
+
+# ---------- Visualization ----------
+matplotlib>=3.9.0,<4.0
+
+# ---------- Progress Monitoring ----------
+tqdm>=4.67.0,<5.0
+
+# ---------- Spreadsheet Support ----------
+openpyxl>=3.1.5,<4.0
+
+# ---------- Scientific Utilities ----------
+packaging>=24.0,<25.0
+
+# ============================================================
+# Optional (recommended for CUDA-enabled systems)
+#
+# Install the appropriate PyTorch build from:
+# https://pytorch.org/get-started/locally/
+#
+# Example (CUDA 12.x):
+# pip install torch torchvision --index-url https://download.pytorch.org/whl/cu124
+#
+# CPU-only:
+# pip install torch torchvision
+# ============================================================
