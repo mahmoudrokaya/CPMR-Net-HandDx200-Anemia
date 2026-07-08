@@ -32,3 +32,8 @@ Outputs/
 Raw/
 dataset/
 datasets/
+# Stage12D safety exclusions
+*.tar
+*.gz
+*.tmp
+*.log
